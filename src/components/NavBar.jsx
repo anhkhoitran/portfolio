@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center bg-slate-800 text-gray-300 px-4">
       {/* menu bar */}
-      <div>Portfolio</div>
+      <div className="text-2xl font-bold">Portfolio</div>
 
       <ul className="hidden md:flex">
         <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
@@ -44,22 +44,22 @@ const NavBar = () => {
       <div className="hidden lg:flex fixed top-[35%] left-0">
         <ul>
             <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-600">
-                <a className="flex justify-between items-center w-full" href="/">
+                <a className="flex justify-between items-center w-full" href="https://linkedin.com/in/tran-anh-khoi-3b3969175" target='_blank'>
                     Linkedin <FaLinkedin size={30}/>
                 </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-neutral-800">
-                <a className="flex justify-between items-center w-full" href="/">
+                <a className="flex justify-between items-center w-full" href="https://github.com/anhkhoitran" target='_blank'>
                     Github <FaGithub size={30}/>
                 </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-teal-900">
-                <a className="flex justify-between items-center w-full" href="/">
+                <a className="flex justify-between items-center w-full" href="mailto:akitran2509@gmail.com" target='_blank'>
                     Email <HiOutlineMail size={30}/>
                 </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-zinc-700">
-                <a className="flex justify-between items-center w-full" href="/">
+                <a className="flex justify-between items-center w-full" href="/" target='_blank'>
                     My CV <BsFillPersonLinesFill size={30}/>
                 </a>
             </li>
