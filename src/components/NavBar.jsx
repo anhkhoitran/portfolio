@@ -44,22 +44,23 @@ const NavBar = () => {
       <div className="hidden lg:flex fixed top-[35%] left-0">
         <ul>
             <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-sky-600">
-                <a className="flex justify-between items-center w-full" href="https://linkedin.com/in/tran-anh-khoi-3b3969175" target='_blank'>
+                <a className="flex justify-between items-center w-full" href="https://linkedin.com/in/tran-anh-khoi-3b3969175" 
+                target='_blank' rel="noreferrer">
                     Linkedin <FaLinkedin size={30}/>
                 </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-neutral-800">
-                <a className="flex justify-between items-center w-full" href="https://github.com/anhkhoitran" target='_blank'>
+                <a className="flex justify-between items-center w-full" href="https://github.com/anhkhoitran" target='_blank' rel="noreferrer">
                     Github <FaGithub size={30}/>
                 </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-teal-900">
-                <a className="flex justify-between items-center w-full" href="mailto:akitran2509@gmail.com" target='_blank'>
+                <a className="flex justify-between items-center w-full" href="mailto:akitran2509@gmail.com" target='_blank' rel="noreferrer">
                     Email <HiOutlineMail size={30}/>
                 </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10px] duration-300 bg-zinc-700">
-                <a className="flex justify-between items-center w-full" href="/" target='_blank'>
+                <a className="flex justify-between items-center w-full" href="/" target='_blank' rel="noreferrer">
                     My CV <BsFillPersonLinesFill size={30}/>
                 </a>
             </li>
