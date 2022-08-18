@@ -17,11 +17,11 @@ const Projects = () => {
                     <p className='text-justify py-2'>Technology: ReactJS, Redux, TailwindCSS.</p>
                 </div>
                 <div>
-                    <a href="/">
+                    <a href="https://github.com/anhkhoitran/shopping-web">
                         <button className='text-center rounded-lg px-4 py-2 my-4 mr-4 bg-white font-bold text-gray-700
                          hover:bg-black hover:text-white'>Github</button>
                     </a>
-                    <a href="/">
+                    <a href="https://shopaa-anhkhoitran.netlify.app">
                         <button className='text-center rounded-lg px-4 py-2 my-4 bg-white font-bold text-gray-700
                          hover:bg-black hover:text-white'>Demo</button>
                     </a>
